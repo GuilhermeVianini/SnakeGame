@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7698c00d-4122-4842-89fc-276db6924a05" name="Changes" comment="feat: cria a janela do jogo">
+    <list default="true" id="7698c00d-4122-4842-89fc-276db6924a05" name="Changes" comment="feat: cria features para a cobra, a comida e uma pontuação">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723402048155</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: cria features do jogo (ps: talvez tenha que refazer)">
+      <created>1723667608075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723667608075</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,6 +78,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: cria a janela do jogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: cria a janela do jogo" />
+    <MESSAGE value="feat: cria features do jogo (ps: talvez tenha que refazer)" />
+    <MESSAGE value="feat: cria features para a cobra, a comida e uma pontuação" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: cria features para a cobra, a comida e uma pontuação" />
   </component>
 </project>
