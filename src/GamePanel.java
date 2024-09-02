@@ -7,8 +7,8 @@ import java.util.Random;
 public class GamePanel extends JPanel implements ActionListener
 {
     // constantes das configs e logica do jogo
-    private static final int TELA_ALTURA = 500;
-    private static final int TELA_LARGURA = 500;
+    private static final int TELA_ALTURA = 700;
+    private static final int TELA_LARGURA = 700;
     private static final int TAMANHO_UNITARIO = 25;
     private static final int UNIDADES = (TELA_ALTURA * TELA_LARGURA)/(TAMANHO_UNITARIO * TAMANHO_UNITARIO);
     private static final int ATRASO = 75; //tempo de atraso de atualização
@@ -65,7 +65,7 @@ public class GamePanel extends JPanel implements ActionListener
                 {
                     g.setColor(Color.green); //cabeça da cobra hihihiihi
                 } else {
-                    g.setColor(new Color(45, 180, 0)); //corpo da cobra (tenho que criar as variaveis para recebar a cor ainda)
+                    g.setColor(new Color(45, 180, 0)); //corpo da cobra
                 }
                 g.fillRect(x[i], y[1], TAMANHO_UNITARIO, TAMANHO_UNITARIO);
             }
@@ -93,7 +93,7 @@ public class GamePanel extends JPanel implements ActionListener
             y[i] = y[i - 1];
         }
         switch (direcao) {
-            case 'u':
+            case 'U':
                 y[0] = y[0] - TAMANHO_UNITARIO;
                 break;
             case 'D':
@@ -117,8 +117,10 @@ public class GamePanel extends JPanel implements ActionListener
         }
     }
     public void verificarColisao() {
-        for (int i = partesCobra; i > 0; i--) {
-            if ((x[0] == x[i]) && (y[0] == y[i])) {
+        for (int i = partesCobra; i > 0; i--) // a cobra não cresce na vertical mas n sei o pq
+        {
+            if ((x[0] == x[i]) && (y[0] == y[i]))
+            {
                 rodando = false;
             }
         }
@@ -188,4 +190,3 @@ public class GamePanel extends JPanel implements ActionListener
         }
     }
 }
-// arrumar problema de abstração na linha 7 e fazer um metodo timer para o jogo atualizar

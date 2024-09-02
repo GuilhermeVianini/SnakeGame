@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7698c00d-4122-4842-89fc-276db6924a05" name="Changes" comment="feat: cria features para a cobra, a comida e uma pontuação">
+    <list default="true" id="7698c00d-4122-4842-89fc-276db6924a05" name="Changes" comment="feat: arrumar os erros e criar variaveis faltantes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724790180193</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: arrumar os erros e criar variaveis faltantes">
+      <created>1725294181060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725294181060</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,7 +97,8 @@
     <MESSAGE value="feat: cria a janela do jogo" />
     <MESSAGE value="feat: cria features do jogo (ps: talvez tenha que refazer)" />
     <MESSAGE value="feat: cria features para a cobra, a comida e uma pontuação" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: cria features para a cobra, a comida e uma pontuação" />
+    <MESSAGE value="feat: arrumar os erros e criar variaveis faltantes" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: arrumar os erros e criar variaveis faltantes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
